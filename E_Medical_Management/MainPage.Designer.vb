@@ -42,7 +42,7 @@ Partial Class MainPage
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Image = Global.E_Medical_Management.My.Resources.Resources.b_logo5
-        Me.Button2.Location = New System.Drawing.Point(154, 315)
+        Me.Button2.Location = New System.Drawing.Point(30, 305)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(447, 178)
         Me.Button2.TabIndex = 5
@@ -50,13 +50,21 @@ Partial Class MainPage
         '
         'Button3
         '
+        Me.Button3.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.diagnostic_laboratory_polyhealth1
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.E_Medical_Management.My.Resources.Resources.Fry_Labs_logo
-        Me.Button3.Location = New System.Drawing.Point(571, 35)
+        Me.Button3.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.BlueViolet
+        Me.Button3.Location = New System.Drawing.Point(544, 54)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(168, 197)
+        Me.Button3.Size = New System.Drawing.Size(213, 429)
         Me.Button3.TabIndex = 6
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.Text = "L" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "B" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "T" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "I" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "E" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "S"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'MainPage
         '

@@ -15,7 +15,19 @@ E_Medical_Management
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources._8izKyXaBT">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:E_Medical_Management.My.Resources.Resources.b_logo5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.bigstock_homeopathy_31546388">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.blood_test">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -31,11 +43,43 @@ E_Medical_Management
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.diagnostic_laboratory_polyhealth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.diagnostic_laboratory_polyhealth1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:E_Medical_Management.My.Resources.Resources.ekg_monitor">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.external_beam_radiation_therapy_350x297">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.FAA_000016_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:E_Medical_Management.My.Resources.Resources.Fry_Labs_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.Fry_Labs_logo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.homeopathy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.maxresdefault">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.medicines">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

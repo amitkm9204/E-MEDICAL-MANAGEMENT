@@ -118,25 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="b-logo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b-logo5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="diagnosis-microsoft-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diagnosis-microsoft-image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ekg-monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ekg-monitor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="medicines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dark_background_line_surface_65896_602x339" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dark_background_line_surface_65896_602x339.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fry Labs logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fry Labs logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pS8ET0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pS8ET0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homeopathy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homeopathy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigstock-homeopathy-31546388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigstock-homeopathy-31546388.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8izKyXaBT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8izKyXaBT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ekg-monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ekg-monitor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Chronic-Disease-Mgmnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chronic-Disease-Mgmnt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fry Labs logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fry Labs logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diagnostic-laboratory-polyhealth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diagnostic-laboratory-polyhealth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blood-test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blood-test.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b-logo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b-logo5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diagnostic-laboratory-polyhealth1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diagnostic-laboratory-polyhealth1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fry Labs logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fry Labs logo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAA_000016-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAA_000016-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_background_line_surface_65896_602x339" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark_background_line_surface_65896_602x339.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="external-beam-radiation-therapy-350x297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\external-beam-radiation-therapy-350x297.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -21,8 +21,11 @@ Public Class LoginPage
         'MainPage.Show()
     End Sub
 
-    Private Sub SignButton_Click(sender As Object, e As EventArgs) Handles SignButton.Click
+    Private Sub SignButton_Click(sender As Object, e As EventArgs)
         FormFill.Show()
     End Sub
 
+    Private Sub LoginPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Laboratories.Designer.vb">
+      <DependentUpon>Laboratories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratories.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LOGIN.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -83,16 +89,22 @@
     <Compile Include="MainPage.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MedicalStore.Designer.vb">
+      <DependentUpon>MedicalStore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalStore.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="signup.Designer.vb">
       <DependentUpon>signup.vb</DependentUpon>
     </Compile>
     <Compile Include="signup.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="diagnosis.Designer.vb">
+      <DependentUpon>diagnosis.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="diagnosis.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -118,17 +130,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Laboratories.resx">
+      <DependentUpon>Laboratories.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MedicalStore.resx">
+      <DependentUpon>MedicalStore.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="diagnosis.resx">
+      <DependentUpon>diagnosis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -173,6 +191,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fry Labs logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fry Labs logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagnostic-laboratory-polyhealth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagnostic-laboratory-polyhealth1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8izKyXaBT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAA_000016-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeopathy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-homeopathy-31546388.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-test.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\external-beam-radiation-therapy-350x297.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
