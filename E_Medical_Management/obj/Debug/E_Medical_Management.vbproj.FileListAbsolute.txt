@@ -11,3 +11,17 @@ C:\Users\AMIT\documents\visual studio 2013\Projects\E_Medical_Management\E_Medic
 C:\Users\AMIT\documents\visual studio 2013\Projects\E_Medical_Management\E_Medical_Management\obj\Debug\E_Medical_Management.pdb
 C:\Users\AMIT\documents\visual studio 2013\Projects\E_Medical_Management\E_Medical_Management\obj\Debug\E_Medical_Management.FormFill.resources
 C:\Users\AMIT\documents\visual studio 2013\Projects\E_Medical_Management\E_Medical_Management\obj\Debug\E_Medical_Management.DiagnosisMainPage.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\bin\Debug\E_Medical_Management.exe.config
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.exe
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.xml
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.pdb
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\bin\Debug\E_Medical_Management.exe
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\bin\Debug\E_Medical_Management.pdb
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\bin\Debug\E_Medical_Management.xml
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.LoginPage.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.MainPage.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.FormFill.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.DiagnosisMainPage.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.Resources.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.vbproj.GenerateResource.Cache
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.StartPage.resources

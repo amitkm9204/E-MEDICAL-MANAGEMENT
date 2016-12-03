@@ -15,6 +15,34 @@ E_Medical_Management
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.b_logo5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.Chronic_Disease_Mgmnt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.dark_background_line_surface_65896_602x339">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.diagnosis_microsoft_image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.ekg_monitor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.Fry_Labs_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:E_Medical_Management.My.Resources.Resources.pS8ET0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:E_Medical_Management.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
