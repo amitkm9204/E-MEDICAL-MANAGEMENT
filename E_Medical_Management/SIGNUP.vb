@@ -16,9 +16,14 @@ Public Class FormFill
         If command.ExecuteNonQuery() = 1 Then
             MsgBox("SUCCESFULY ADDED")
         End If
+        If MsgBoxResult.Ok Or MsgBoxResult.Cancel Then
+            'LoginPage.Show()
+            StartPage.Show()
+        End If
+        Me.Hide()
     End Sub
 
     Private Sub FormFill_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        LoginPage.Hide()
+        StartPage.Hide()
     End Sub
 End Class

@@ -26,6 +26,6 @@ Public Class LoginPage
     End Sub
 
     Private Sub LoginPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        StartPage.Hide()
     End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class MedicalStore
+Partial Class MedicalStoreMainPage
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,10 +22,10 @@ Partial Class MedicalStore
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MedicalStore))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MedicalStoreMainPage))
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.AlloPathy = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -49,14 +49,14 @@ Partial Class MedicalStore
         Me.Button2.TabIndex = 1
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button1
+        'AlloPathy
         '
-        Me.Button1.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.medicines
-        Me.Button1.Location = New System.Drawing.Point(42, 53)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(362, 169)
-        Me.Button1.TabIndex = 0
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.AlloPathy.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.medicines
+        Me.AlloPathy.Location = New System.Drawing.Point(42, 53)
+        Me.AlloPathy.Name = "AlloPathy"
+        Me.AlloPathy.Size = New System.Drawing.Size(362, 169)
+        Me.AlloPathy.TabIndex = 0
+        Me.AlloPathy.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -88,7 +88,7 @@ Partial Class MedicalStore
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "AYURVEDIC"
         '
-        'MedicalStore
+        'MedicalStoreMainPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -99,17 +99,17 @@ Partial Class MedicalStore
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.AlloPathy)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "MedicalStore"
+        Me.Name = "MedicalStoreMainPage"
         Me.Text = "MEDICAL STORES"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents AlloPathy As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label

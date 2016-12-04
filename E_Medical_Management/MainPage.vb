@@ -4,11 +4,18 @@
         LoginPage.Hide()
     End Sub
 
-    Private Sub Diagnosis_Click(sender As Object, e As EventArgs)
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Diagnosis.Click
         DiagnosisMainPage.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Laboratories_Click(sender As Object, e As EventArgs) Handles Laboratories.Click
+        Laboratory.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub MedicalStore_Click(sender As Object, e As EventArgs) Handles MedicalStore.Click
+        MedicalStoreMainPage.Show()
+        Me.Hide()
     End Sub
 End Class

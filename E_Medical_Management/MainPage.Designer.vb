@@ -23,48 +23,48 @@ Partial Class MainPage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainPage))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Diagnosis = New System.Windows.Forms.Button()
+        Me.MedicalStore = New System.Windows.Forms.Button()
+        Me.Laboratories = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'Diagnosis
         '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.E_Medical_Management.My.Resources.Resources.diagnosis_microsoft_image
-        Me.Button1.Location = New System.Drawing.Point(30, 54)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(447, 178)
-        Me.Button1.TabIndex = 4
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Diagnosis.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Diagnosis.Image = Global.E_Medical_Management.My.Resources.Resources.diagnosis_microsoft_image
+        Me.Diagnosis.Location = New System.Drawing.Point(30, 54)
+        Me.Diagnosis.Name = "Diagnosis"
+        Me.Diagnosis.Size = New System.Drawing.Size(447, 178)
+        Me.Diagnosis.TabIndex = 4
+        Me.Diagnosis.UseVisualStyleBackColor = True
         '
-        'Button2
+        'MedicalStore
         '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.E_Medical_Management.My.Resources.Resources.b_logo5
-        Me.Button2.Location = New System.Drawing.Point(30, 305)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(447, 178)
-        Me.Button2.TabIndex = 5
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.MedicalStore.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MedicalStore.Image = Global.E_Medical_Management.My.Resources.Resources.b_logo5
+        Me.MedicalStore.Location = New System.Drawing.Point(30, 305)
+        Me.MedicalStore.Name = "MedicalStore"
+        Me.MedicalStore.Size = New System.Drawing.Size(447, 178)
+        Me.MedicalStore.TabIndex = 5
+        Me.MedicalStore.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Laboratories
         '
-        Me.Button3.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
-        Me.Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Button3.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.diagnostic_laboratory_polyhealth1
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.BlueViolet
-        Me.Button3.Location = New System.Drawing.Point(544, 54)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(213, 429)
-        Me.Button3.TabIndex = 6
-        Me.Button3.Text = "L" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "B" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "T" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "I" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "E" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "S"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Laboratories.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
+        Me.Laboratories.BackColor = System.Drawing.Color.Transparent
+        Me.Laboratories.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.diagnostic_laboratory_polyhealth1
+        Me.Laboratories.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Laboratories.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Laboratories.Font = New System.Drawing.Font("Modern No. 20", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Laboratories.ForeColor = System.Drawing.Color.BlueViolet
+        Me.Laboratories.Location = New System.Drawing.Point(544, 54)
+        Me.Laboratories.Name = "Laboratories"
+        Me.Laboratories.Size = New System.Drawing.Size(213, 429)
+        Me.Laboratories.TabIndex = 6
+        Me.Laboratories.Text = "L" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "B" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "T" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "I" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "E" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "S"
+        Me.Laboratories.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Laboratories.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.Laboratories.UseVisualStyleBackColor = False
         '
         'MainPage
         '
@@ -74,9 +74,9 @@ Partial Class MainPage
         Me.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.ekg_monitor
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 561)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Laboratories)
+        Me.Controls.Add(Me.MedicalStore)
+        Me.Controls.Add(Me.Diagnosis)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -86,7 +86,7 @@ Partial Class MainPage
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Diagnosis As System.Windows.Forms.Button
+    Friend WithEvents MedicalStore As System.Windows.Forms.Button
+    Friend WithEvents Laboratories As System.Windows.Forms.Button
 End Class

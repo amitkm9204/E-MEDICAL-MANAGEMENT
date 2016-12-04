@@ -25,5 +25,6 @@ C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medi
 C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.Resources.resources
 C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.vbproj.GenerateResource.Cache
 C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.StartPage.resources
-C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.Laboratories.resources
-C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.MedicalStore.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.Laboratory.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.MedicalStoreMainPage.resources
+C:\Users\AMIT\Desktop\E_medical_management\E_Medical_Management\obj\Debug\E_Medical_Management.Display.resources

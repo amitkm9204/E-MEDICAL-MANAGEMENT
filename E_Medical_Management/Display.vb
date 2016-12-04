@@ -1,14 +1,13 @@
-﻿Public Class StartPage
-
-    Private Sub StartPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
+﻿Imports E_Medical_Management.MedicalStoreMainPage
+Public Class Display
+    Dim inc As New MedicalStoreMainPage()
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        FormFill.Show()
+        inc.sn = inc.sn + 1
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        LoginPage.Show()
+        inc.sn = inc.sn - 1
     End Sub
+
+
 End Class

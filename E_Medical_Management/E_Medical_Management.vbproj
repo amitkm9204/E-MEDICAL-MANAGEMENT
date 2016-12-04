@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Display.Designer.vb">
+      <DependentUpon>Display.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Display.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Laboratories.Designer.vb">
       <DependentUpon>Laboratories.vb</DependentUpon>
     </Compile>
@@ -130,6 +136,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Laboratories.resx">
       <DependentUpon>Laboratories.vb</DependentUpon>
     </EmbeddedResource>
