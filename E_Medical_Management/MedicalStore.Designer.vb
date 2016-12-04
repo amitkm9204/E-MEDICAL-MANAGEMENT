@@ -23,31 +23,31 @@ Partial Class MedicalStoreMainPage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MedicalStoreMainPage))
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.HomoPathy = New System.Windows.Forms.Button()
+        Me.AyurVedic = New System.Windows.Forms.Button()
         Me.AlloPathy = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button3
+        'HomoPathy
         '
-        Me.Button3.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.bigstock_homeopathy_31546388
-        Me.Button3.Location = New System.Drawing.Point(490, 127)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(263, 313)
-        Me.Button3.TabIndex = 2
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.HomoPathy.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.bigstock_homeopathy_31546388
+        Me.HomoPathy.Location = New System.Drawing.Point(490, 127)
+        Me.HomoPathy.Name = "HomoPathy"
+        Me.HomoPathy.Size = New System.Drawing.Size(263, 313)
+        Me.HomoPathy.TabIndex = 2
+        Me.HomoPathy.UseVisualStyleBackColor = True
         '
-        'Button2
+        'AyurVedic
         '
-        Me.Button2.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.homeopathy
-        Me.Button2.Location = New System.Drawing.Point(42, 326)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(362, 169)
-        Me.Button2.TabIndex = 1
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.AyurVedic.BackgroundImage = Global.E_Medical_Management.My.Resources.Resources.homeopathy
+        Me.AyurVedic.Location = New System.Drawing.Point(42, 326)
+        Me.AyurVedic.Name = "AyurVedic"
+        Me.AyurVedic.Size = New System.Drawing.Size(362, 169)
+        Me.AyurVedic.TabIndex = 1
+        Me.AyurVedic.UseVisualStyleBackColor = True
         '
         'AlloPathy
         '
@@ -97,8 +97,8 @@ Partial Class MedicalStoreMainPage
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.HomoPathy)
+        Me.Controls.Add(Me.AyurVedic)
         Me.Controls.Add(Me.AlloPathy)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -110,8 +110,8 @@ Partial Class MedicalStoreMainPage
 
     End Sub
     Friend WithEvents AlloPathy As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents AyurVedic As System.Windows.Forms.Button
+    Friend WithEvents HomoPathy As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label

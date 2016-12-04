@@ -25,6 +25,7 @@ Partial Class Display
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.DisplayText = New System.Windows.Forms.Label()
+        Me.Timing = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'LinkLabel1
@@ -58,17 +59,27 @@ Partial Class Display
         'DisplayText
         '
         Me.DisplayText.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DisplayText.Location = New System.Drawing.Point(76, 9)
+        Me.DisplayText.Location = New System.Drawing.Point(76, 32)
         Me.DisplayText.Name = "DisplayText"
-        Me.DisplayText.Size = New System.Drawing.Size(470, 356)
+        Me.DisplayText.Size = New System.Drawing.Size(470, 185)
         Me.DisplayText.TabIndex = 2
         Me.DisplayText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Timing
+        '
+        Me.Timing.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Timing.Location = New System.Drawing.Point(112, 205)
+        Me.Timing.Name = "Timing"
+        Me.Timing.Size = New System.Drawing.Size(470, 57)
+        Me.Timing.TabIndex = 3
+        Me.Timing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Display
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(634, 396)
+        Me.Controls.Add(Me.Timing)
         Me.Controls.Add(Me.DisplayText)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.LinkLabel1)
@@ -82,4 +93,5 @@ Partial Class Display
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
     Friend WithEvents DisplayText As System.Windows.Forms.Label
+    Friend WithEvents Timing As System.Windows.Forms.Label
 End Class
