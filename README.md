@@ -2,14 +2,14 @@
 This project deals with the facility to reach or get appointment to any doctor in burdwan area.
 
 # Software requirement
-## Microsoft Visual Studio 15.0
-## The database version 852 or above
+   Microsoft Visual Studio 15.0
+   The database version 852 or above
 
 # Working or Enhancing the project
-## you just need to clone it using 'git clone https://github.com/amitkm9204/E_medical_management'
+   you just need to clone it using 'git clone https://github.com/amitkm9204/E_medical_management'
 
 # Licence
-## Anyone having interest can use this repo by forking the above project to their github account.
+   Anyone having interest can use this repo by forking the above project to their github account.
 
 # The screen shot of project
 
