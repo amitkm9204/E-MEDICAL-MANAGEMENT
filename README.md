@@ -10,6 +10,9 @@ This project deals with the facility to reach or get appointment to any doctor i
 
 # Licence
    Anyone having interest can use this repo by forking the above project to their github account.
+   
+# Correction 
+   You need to correct the sql connection just by changing the path of database1.mdf from the every form.
 
 # The screen shot of project
 
